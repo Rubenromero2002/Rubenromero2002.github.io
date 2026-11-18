@@ -6,9 +6,10 @@
     <title>HOME</title>
 </head>
 <body>
-    <h1>Estoy en ello</h1>
-    <h2>Desde el server 3</h2>
+    <h1>Formulario</h1>
     <form action="https://ncoge.com/phps/formulario.php" method="post">
+       <fieldset>
+        <legend>Datos personales</legend>
         Nombre:
        <br> <input type="text" name="nombre">  </br>
         Contraseña:
@@ -18,6 +19,7 @@
         <input type="radio" name="sexo" value="mujer"> Mujer
         <input type="radio" name="sexo" value="otro"> Otro
         <br>
+       </fieldset>
         Fichero  adjunto:
         <br> <input type="file" name="fichero"> 
         <input type ="submit" value="Enviar">  </br>
